@@ -2,6 +2,7 @@ import requests
 
 # Define the list of mutual fund tickers you want to retrieve portfolio information for
 fund_tickers = ['VTIAX', 'VTSAX', 'VGSLX']
+print(fund_tickers)
 
 # Define the Yahoo Finance API endpoint
 url = 'https://query1.finance.yahoo.com/v1/finance/quoteType/'
